@@ -104,8 +104,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vi="nvim"
-neofetch
+alias py="python"
 
+export XDG_CONFIG_HOME=~/.config
 export PATH=$PATH:$HOME/.local/bin
 export PATH=$PATH:/opt/python/3.9.9/bin
-export XDG_CONFIG_HOME=~/.config
